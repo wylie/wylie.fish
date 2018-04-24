@@ -1,0 +1,13 @@
+.Heading {
+  position: absolute;
+  top: 70px;
+  left: -45px;
+  display: block;
+  color: #888;
+  font-size: 6em;
+  font-weight: 900;
+  transform: rotate(-90deg);
+  line-height: 1;
+  text-align: right;
+  cursor: default;
+}

@@ -1,0 +1,21 @@
+:root {
+  --Anchor-color: #efefef;
+  --Anchor-color: #444;
+}
+
+.Anchor {
+  padding-bottom: 5px;
+  color: #777;
+  font-weight: lighter;
+  text-decoration: none;
+  cursor: pointer;
+}
+.Anchor:focus,
+.Anchor:hover {
+  border-bottom: 5px solid var(--Anchor-color);
+}
+.Anchor:active {
+  position: relative;
+  top: 1px;
+  color: var(--Anchor-color);
+}
