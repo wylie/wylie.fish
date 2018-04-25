@@ -1,12 +1,11 @@
+@import './styles/_reset.css';
+
 html,
 body {
-  position: relative;
-  width: 100%;
   min-width: 320px;
-  height: 100%;
-  padding: 0;
-  margin: 0;
   font-family: Helvetica, Arial, sans-serif;
-  text-align: center;
-  background: #999;
+}
+
+.root {
+  display: flex;
 }

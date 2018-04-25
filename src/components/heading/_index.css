@@ -1,13 +1,21 @@
+@import '../../styles/_index.css';
+
 .Heading {
+  position: relative;
+  cursor: default;
+  height: 100vh;
+  width: 230px;
+  background: #999;
+}
+
+.Heading_text {
   position: absolute;
   top: 70px;
   left: -45px;
-  display: block;
-  color: #888;
+  color: var(--Text-color);
   font-size: 6em;
   font-weight: 900;
-  transform: rotate(-90deg);
   line-height: 1;
   text-align: right;
-  cursor: default;
+  transform: rotate(-90deg);
 }
