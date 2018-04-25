@@ -1,17 +1,21 @@
 import React from "react";
 import { render } from "react-dom";
+import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom';
 
-import Heading from "./components/heading";
-import List from "./components/list";
+import Wrapper from "./components/wrapper";
 
-import "./styles/_reset.css";
 import "./_index.css";
 
 const App = () => (
-  <div>
-    <Heading />
-    <List />
-  </div>
+  <Router>
+    <React.Fragment>
+      <Route
+        exact path="/er"
+        component={Wrapper}
+      />
+      <Redirect from="/" to="/er" />
+    </React.Fragment>
+  </Router>
 );
 
 render(<App />, document.getElementById("root"));
