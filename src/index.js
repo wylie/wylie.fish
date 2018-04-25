@@ -19,4 +19,6 @@ const App = () => (
   </Router>
 );
 
+App.displayName = "App";
+
 render(<App />, document.getElementById("root"));
