@@ -18,4 +18,6 @@ const List = () => {
   );
 };
 
+List.displayName = "List";
+
 export default List;

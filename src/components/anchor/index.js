@@ -11,6 +11,8 @@ const Anchor = ({ href, children }) => {
   );
 };
 
+Anchor.displayName = "Anchor";
+
 Anchor.propTypes = {
   href: PropTypes.string,
   title: PropTypes.string

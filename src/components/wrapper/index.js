@@ -10,4 +10,6 @@ const Wrapper = () => (
   </React.Fragment>
 );
 
+Wrapper.displayName = "Wrapper";
+
 export default Wrapper;
