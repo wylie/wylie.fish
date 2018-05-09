@@ -20,6 +20,10 @@ const links = [
     href: "http://instagram.com/wyliefisher"
   },
   {
+    title: "test",
+    href: "http://google.com"
+  },
+  {
     title: "goodreads",
     href: "http://goodreads.com/wyliefisher"
   }
